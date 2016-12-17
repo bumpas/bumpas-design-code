@@ -1,0 +1,33 @@
+$grids: 12;
+$gutters: 1;
+
+.row {
+	//@include background-grid;
+	@include breakpoint(baby-bear) {
+		.col-6-1 {
+			@include grid-span(6,1);	
+		}
+		.col-6-7 {
+			@include grid-span(6,7);
+		}
+		.col-7-1 {
+			@include grid-span(9,1);
+		}
+		.col-5-8 {
+			@include grid-span(3,10);
+		}
+		.col-8-1 {
+			@include grid-span(8,1);
+		}	
+		.col-4-9 {
+			@include grid-span(4,9);
+		}
+		.col-5-1 {
+			@include grid-span(5,1);
+		}
+		.col-7-6 {
+			@include grid-span(7,6);
+		}
+		@include clearfix;
+	}
+}
