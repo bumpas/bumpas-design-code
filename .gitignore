@@ -26,3 +26,4 @@ wp-content/plugins/*
 wp-content/themes/*
 !wp-content/themes/bumpas/
 !wp-content/themes/passenger-child/
+!wp-content/themes/hanna-child/
